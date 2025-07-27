@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: 'Courier New', monospace;
+  background-color: black;
+  color: #00ff00;
+  background-image: url("assets/images/matrix-bg.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.hero {
+  text-align: center;
+  padding: 5rem 2rem;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  color: #00ff00;
+  border: 2px solid #00ff00;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1rem;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #00ff00;
+  color: black;
+}
